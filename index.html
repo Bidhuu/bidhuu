@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bidhu Babu - Official Homepage</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+            padding: 40px 30px;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background-color: #007bff;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            font-weight: bold;
+            margin: 0 auto 20px auto;
+            box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+        }
+
+        h1 {
+            font-size: 26px;
+            margin-bottom: 8px;
+            color: #222;
+        }
+
+        p.subtitle {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: #fff;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 16px;
+            transition: transform 0.2s ease, opacity 0.2s ease;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            opacity: 0.9;
+        }
+
+        .btn-facebook {
+            background-color: #1877F2;
+        }
+
+        .btn-instagram {
+            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        }
+
+        .btn-twitter {
+            background-color: #000000; /* X / Twitter */
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="profile-img">BB</div>
+        <h1>Bidhu Babu</h1>
+        <p class="subtitle">Welcome to my personal homepage!</p>
+
+        <div class="social-links">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="btn btn-facebook">
+                Facebook
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="btn btn-instagram">
+                Instagram
+            </a>
+            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="btn btn-twitter">
+                Twitter (X)
+            </a>
+        </div>
+
+        <footer>
+            &copy; 2026 Bidhu Babu. All rights reserved.
+        </footer>
+    </div>
+
+</body>
+</html>
